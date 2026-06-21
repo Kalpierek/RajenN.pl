@@ -1,13 +1,5 @@
 {
-    "modpacks": [
-        {
-            "id": "1",
-            "nazwa": "Polski",
-            "opis": "eaea",
-            "wersja": "1.21.8",
-            "dataDodania": "21.06.2026"
-        }
-    ],
+    "modpacks": [],
     "plugins": [],
     "scripts": [
         {
