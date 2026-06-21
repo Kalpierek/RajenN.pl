@@ -1,0 +1,16 @@
+{
+  "name": "rajenn-bot-portfolio",
+  "version": "1.1.0",
+  "description": "Discord Bot and Web Portfolio integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.4",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

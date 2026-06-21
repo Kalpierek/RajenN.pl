@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrypty | Rajenn</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="top-nav fade-in-down">
+        <div class="logo"><a href="index.html">RAJENN</a></div>
+        <div class="nav-links">
+            <a href="index.html">Start</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="plugins.html">Pluginy</a>
+            <a href="skrypty.html" class="active">Skrypty</a>
+        </div>
+        <div class="social-icons">
+            <button id="theme-toggle" class="theme-toggle-btn" title="Przełącz motyw"><i class="fa-solid fa-sun"></i></button>
+            <a href="https://discord.gg/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </nav>
+
+    <main class="subpage-container">
+        <div class="subpage-header fade-in-down">
+            <h2 class="section-title">My Scripts <span class="divider">/</span> <span class="pl-text">Moje Skrypty</span></h2>
+            <p class="section-subtitle">Zestawienie moich autorskich skryptów (Skript). Zsynchronizowane automatycznie.</p>
+            
+            <div class="search-filter-container">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="scripts-search" placeholder="Szukaj skryptu po nazwie lub opisie...">
+                </div>
+            </div>
+        </div>
+        
+        <div id="scripts-grid" class="grid fade-in-up delay-1"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rajenn Core Systems. Strona w pełni kompatybilna z darmowymi hostingami.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

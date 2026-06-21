@@ -1,0 +1,13 @@
+{
+    "modpacks": [
+        {
+            "id": "1",
+            "nazwa": "ESZ",
+            "opis": "EAEA",
+            "wersja": "121.8",
+            "dataDodania": "21.06.2026"
+        }
+    ],
+    "plugins": [],
+    "scripts": []
+}
