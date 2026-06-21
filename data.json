@@ -9,5 +9,16 @@
         }
     ],
     "plugins": [],
-    "scripts": []
+    "scripts": [
+        {
+            "id": "1'",
+            "nazwa": "1",
+            "opis": "1121.9",
+            "wersja": "111",
+            "typ": "free",
+            "cena": "Brak",
+            "link": "",
+            "dataDodania": "21.06.2026"
+        }
+    ]
 }
