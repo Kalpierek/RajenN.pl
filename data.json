@@ -1,6 +1,18 @@
 {
     "modpacks": [],
-    "plugins": [],
+    "plugins": [
+        {
+            "id": "1",
+            "nazwa": "esz",
+            "opis": "1",
+            "wersja": "1",
+            "typ": "free",
+            "cena": "Brak",
+            "link": "",
+            "permisje": "Brak specyfikacji",
+            "dataDodania": "22.06.2026"
+        }
+    ],
     "scripts": [
         {
             "id": "1'",
