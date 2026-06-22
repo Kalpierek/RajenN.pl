@@ -1,16 +1,20 @@
 {
-  "name": "rajenn-bot-portfolio",
-  "version": "1.1.0",
-  "description": "Discord Bot and Web Portfolio integration",
+  "name": "discord-bot-rajenn",
+  "version": "1.0.0",
+  "description": "Zaawansowany bot Discord z systemem ticketów, weryfikacją i bazą danych.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "basic-ftp": "^5.0.4",
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "axios": "^1.18.0",
+    "basic-ftp": "^5.0.3",
+    "cors": "^2.8.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^6.0.1",
+    "express": "^4.22.2",
+    "express-session": "^1.19.0",
+    "ms": "^2.1.3"
   }
 }

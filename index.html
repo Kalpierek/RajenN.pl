@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rajenn | Java & Server Developer</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -16,11 +16,11 @@
             <a href="portfolio.html">Portfolio</a>
             <a href="plugins.html">Pluginy</a>
             <a href="skrypty.html">Skrypty</a>
+            <a href="Ticket.html" style="color: #3498db;">Tickety (Admin) <i class="fa-solid fa-lock"></i></a>
         </div>
         <div class="social-icons">
             <button id="theme-toggle" class="theme-toggle-btn" title="Przełącz motyw"><i class="fa-solid fa-sun"></i></button>
             <a href="https://discord.gg/" target="_blank"><i class="fa-brands fa-discord"></i></a>
-            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </nav>
 
@@ -28,16 +28,14 @@
         <div class="hero-content">
             <div class="badge badge-version fade-in-up" style="margin-bottom: 20px;">Dostępny do współpracy</div>
             <h1 class="fade-in-up">I'm Rajenn 👋</h1>
-            <h2 class="fade-in-up delay-1">Professional Java Developer <img src="polska.png" alt="Poland" class="flag-icon"></h2>
+            <h2 class="fade-in-up delay-1">Professional Java Developer</h2>
             <div class="skills-container">
                 <span class="skill-tag"><i class="fa-brands fa-java"></i> Java 21</span>
-                <span class="skill-tag"><i class="fa-solid fa-cube"></i> Java Dev</span>
-                <span class="skill-tag"><i class="fa-solid fa-database"></i> Website Developer</span>
+                <span class="skill-tag"><i class="fa-solid fa-cube"></i> Spigot API</span>
                 <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
             </div>
             <div class="hero-actions fade-in-up delay-1" style="margin-top: 40px;">
-                <a href="portfolio.html" class="btn-action">Zobacz moje prace</a>
-                <a href="#about" class="btn-action" style="background: transparent; border: 1px solid #555;">O mnie</a>
+                <a href="https://discord.gg/" target="_blank" class="btn-action">Dołącz do Discorda <i class="fa-brands fa-discord"></i></a>
             </div>
         </div>
     </header>
@@ -45,25 +43,25 @@
     <section class="stats-section">
         <div class="stats-grid">
             <div class="stat-item">
+                <i class="fa-solid fa-headset" style="font-size: 30px; margin-bottom: 15px; color: #3498db;"></i>
+                <h3 class="stat-number" id="api-stat-tickets">0</h3>
+                <p class="stat-label">Aktywne Zgłoszenia</p>
+            </div>
+            <div class="stat-item">
                 <i class="fa-solid fa-plug" style="font-size: 30px; margin-bottom: 15px; color: #2ecc71;"></i>
-                <h3 class="stat-number" data-stat-type="plugins" data-target="0">0</h3>
+                <h3 class="stat-number" id="api-stat-plugins">0</h3>
                 <p class="stat-label">Napisanych Pluginów</p>
             </div>
             <div class="stat-item">
-                <i class="fa-solid fa-box-open" style="font-size: 30px; margin-bottom: 15px; color: #3498db;"></i>
-                <h3 class="stat-number" data-stat-type="modpacks" data-target="0">0</h3>
-                <p class="stat-label">Stworzonych Paczek</p>
-            </div>
-            <div class="stat-item">
-                <i class="fa-solid fa-scroll" style="font-size: 30px; margin-bottom: 15px; color: #9b59b6;"></i>
-                <h3 class="stat-number" data-stat-type="scripts" data-target="0">0</h3>
-                <p class="stat-label">Napisanych Skryptów</p>
+                <i class="fa-solid fa-scroll" style="font-size: 30px; margin-bottom: 15px; color: #f1c40f;"></i>
+                <h3 class="stat-number" id="api-stat-scripts">0</h3>
+                <p class="stat-label">Stworzonych Skryptów</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Rajenn Core Systems. System w pełni zsynchronizowany ze statycznym plikiem bazy danych bota.</p>
+        <p>&copy; 2026 Rajenn Core Systems. System połączony z API bota Discord.</p>
     </footer>
 
     <script src="script.js"></script>
