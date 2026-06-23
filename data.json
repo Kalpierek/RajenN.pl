@@ -1,5 +1,17 @@
 {
     "modpacks": [],
-    "plugins": [],
+    "plugins": [
+        {
+            "id": "1",
+            "nazwa": "Plugin na Rozszerzone Enderchesty",
+            "opis": "Plugin posiada komendy takie jak : /rajcode-rozszerzoneednerchest i tam sa wszytkie komendy",
+            "wersja": "1.21.4",
+            "typ": "free",
+            "cena": "Brak",
+            "link": "https://www.mediafire.com/file/vq6xsciaco8ydvy/RajCode-powiekszoneEnderchesty-1.0-SNAPSHOT.jar/file",
+            "youtube": "",
+            "dataDodania": "23.06.2026"
+        }
+    ],
     "scripts": []
 }
