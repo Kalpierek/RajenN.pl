@@ -1,17 +1,5 @@
 {
-    "modpacks": [
-        {
-            "id": "1",
-            "nazwa": "1",
-            "opis": "1",
-            "wersja": "1",
-            "typ": "free",
-            "cena": "Brak",
-            "link": "",
-            "youtube": "",
-            "dataDodania": "23.06.2026"
-        }
-    ],
+    "modpacks": [],
     "plugins": [],
     "scripts": []
 }
