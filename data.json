@@ -1,5 +1,17 @@
 {
-    "modpacks": [],
+    "modpacks": [
+        {
+            "id": "1",
+            "nazwa": "1",
+            "opis": "Testuje",
+            "wersja": "1",
+            "typ": "free",
+            "cena": "Brak",
+            "link": "test",
+            "youtube": "",
+            "dataDodania": "25.06.2026"
+        }
+    ],
     "plugins": [],
     "scripts": []
 }
